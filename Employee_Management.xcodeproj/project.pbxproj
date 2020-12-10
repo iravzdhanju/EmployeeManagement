@@ -14,6 +14,7 @@
 		849C9CC0257FF7740063870B /* Employee_Management.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 849C9CBE257FF7740063870B /* Employee_Management.xcdatamodeld */; };
 		849C9CC2257FF7770063870B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849C9CC1257FF7770063870B /* Assets.xcassets */; };
 		849C9CC5257FF7770063870B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849C9CC3257FF7770063870B /* LaunchScreen.storyboard */; };
+		849C9CD3257FFA070063870B /* detailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849C9CD2257FFA070063870B /* detailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		849C9CC1257FF7770063870B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		849C9CC4257FF7770063870B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		849C9CC6257FF7770063870B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849C9CD2257FFA070063870B /* detailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +62,39 @@
 			children = (
 				849C9CB5257FF7740063870B /* AppDelegate.swift */,
 				849C9CB7257FF7740063870B /* SceneDelegate.swift */,
-				849C9CB9257FF7740063870B /* ViewController.swift */,
-				849C9CBB257FF7740063870B /* Main.storyboard */,
+				849C9CCD257FF7850063870B /* Controller */,
+				849C9CCF257FF78E0063870B /* View */,
 				849C9CC1257FF7770063870B /* Assets.xcassets */,
 				849C9CC3257FF7770063870B /* LaunchScreen.storyboard */,
 				849C9CC6257FF7770063870B /* Info.plist */,
-				849C9CBE257FF7740063870B /* Employee_Management.xcdatamodeld */,
+				849C9CD0257FF7960063870B /* Model */,
 			);
 			path = Employee_Management;
+			sourceTree = "<group>";
+		};
+		849C9CCD257FF7850063870B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				849C9CB9257FF7740063870B /* ViewController.swift */,
+				849C9CD2257FFA070063870B /* detailViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		849C9CCF257FF78E0063870B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				849C9CBB257FF7740063870B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		849C9CD0257FF7960063870B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				849C9CBE257FF7740063870B /* Employee_Management.xcdatamodeld */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +170,7 @@
 				849C9CC0257FF7740063870B /* Employee_Management.xcdatamodeld in Sources */,
 				849C9CBA257FF7740063870B /* ViewController.swift in Sources */,
 				849C9CB6257FF7740063870B /* AppDelegate.swift in Sources */,
+				849C9CD3257FFA070063870B /* detailViewController.swift in Sources */,
 				849C9CB8257FF7740063870B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
